@@ -24,7 +24,7 @@ app.secret_key = "change-me-in-production"
 
 # Configuration Resend
 resend.api_key = os.environ.get("RESEND_API_KEY")
-SENDER_EMAIL  = os.environ.get("SENDER_EMAIL", "noreply@lre-certif.fr")
+SENDER_EMAIL  = os.environ.get("SENDER_EMAIL", "noreply@crasdor.org")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
